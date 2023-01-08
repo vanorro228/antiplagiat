@@ -1,2 +1,13 @@
-# antiplagiat
-for tinkoff study course
+Задача для Tinkoff Machine Learning Весна'23
+Программа - антиплагиат 
+Для решения был использован алгоритм расстояния Левенштейна
+
+Список ресурсов:
+ levenshtein_distance.py - зашит алгоритм расчета метрики - расстояние Левинштейна
+
+ comparison.py - файл интерфейса.
+
+  Метрика расчета процента схожести двух файлов - 
+  metric_lev = (origin_file_size - lev_dist)/(origin_file_size)
+
+ files_with_dir.py - добавляет в указанный фаил все файлы в указанных 2 директориях 
